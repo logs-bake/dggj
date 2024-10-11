@@ -1,0 +1,74 @@
+[{
+    "literatureId": "L00100001",
+    "literatureName": "《中国古代建筑技术》",
+    "literatureType": "jswx",
+    "literatureAuthor": "李学勤",
+    "literaturePublisher": "五条超人出版社",
+    "literatureISBN": "9787112080484",
+    "literatureDate": "2002-08-01",
+    "literaturePic": "images/literature/gj_zhongguogudaijianzhu_lxq.jpg",
+    "literatureDetail": "lit_zhongguogudaijianzhu_lxq.json",
+    "literatureDescription": "《中国古代建筑技术》系统地阐述了古代中国建筑技术，并对中国古代建筑技术进行了深入研究和探讨。"
+},
+{
+    "literatureId": "L00100002",
+    "literatureName": "《航空发动机设计要求》",
+    "literatureType": "jswx",
+    "literatureAuthor": "辛光武",
+    "literaturePublisher": "五条超人出版社",
+    "literatureISBN": "9787113061510",
+    "literatureDate": "2015-10-01",
+    "literaturePic": "images/literature/gj_hangkongfadingji_xgw.jpg",
+    "literatureDetail": "lit_hangkongfadingji_xgw.json",
+    "literatureDescription": "《航空发动机设计要求》详细介绍了航空发动机的设计要求，涵盖了航空发动机设计的各个方面知识，是航空领域的重要参考资料。"
+},
+{
+    "literatureId": "L00100003",
+    "literatureName": "《工程结构抗震设计与分析》",
+    "literatureType": "jswx",
+    "literatureAuthor": "曾庆存",
+    "literaturePublisher": "五条超人出版社",
+    "literatureISBN": "9787112112666",
+    "literatureDate": "2018-04-01",
+    "literaturePic": "images/literature/gj_gongchengjiegoukangzhen_zqc.jpg",
+    "literatureDetail": "lit_gongchengjiegoukangzhen_zqc.json",
+    "literatureDescription": "《工程结构抗震设计与分析》系统介绍了工程结构在抗震设计与分析方面的理论与方法，对于提高工程抗震性能具有重要的指导意义。"
+},
+{
+    "literatureId": "L00100004",
+    "literatureName": "《数字化工厂：基于智能制造的生产运营管理》",
+    "literatureType": "jswx",
+    "literatureAuthor": "陈海波",
+    "literaturePublisher": "五条超人出版社",
+    "literatureISBN": "9787111551789",
+    "literatureDate": "2019-11-01",
+    "literaturePic": "images/literature/gj_shuzihuagongchang_chb.jpg",
+    "literatureDetail": "lit_shuzihuagongchang_chb.json",
+    "literatureDescription": "《数字化工厂：基于智能制造的生产运营管理》介绍了数字化工厂的概念、架构和关键技术，是智能制造领域的重要参考书籍。"
+},
+    {
+    "literatureId": "L0010005",
+    "literatureName": "《工程材料力学》",
+    "literatureType": "jswx",
+    "literatureAuthor": "赵红",
+    "literaturePublisher": "五条超人出版社",
+    "literatureISBN": "9787040462407",
+    "literatureDate": "2022-06-01",
+    "literaturePic": "images/literature/gj_gongchengcailiaolixue_zh.jpg",
+    "literatureDetail": "lit_gongchengcailiaolixue_zh.json",
+    "literatureDescription": "《工程材料力学》系统介绍了工程材料的力学性能及其应用，对工程材料领域的学习和研究具有重要参考价值。"
+},{
+    "literatureId": "L00100008",
+    "literatureName": "《智能制造系统与技术》",
+    "literatureType": "jswx",
+    "literatureAuthor": "李强",
+    "literaturePublisher": "五条超人出版社",
+    "literatureISBN": "9787111567537",
+    "literatureDate": "2021-05-01",
+    "literaturePic": "images/literature/gj_zhinengzhizaosystem_lq.jpg",
+    "literatureDetail": "lit_zhinengzhizaosystem_lq.json",
+    "literatureDescription": "《智能制造系统与技术》系统介绍了智能制造系统的构成、技术和应用，对于智能制造领域的专业人士具有重要参考价值。"
+}
+
+
+]

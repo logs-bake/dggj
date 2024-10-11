@@ -1,0 +1,158 @@
+{% extends "/gj_base.html" %}
+{% block title %} {{video.video_name}} {% endblock %}
+{% block main %}
+
+{% if video %}
+
+<!-- 影视作品·作品概览-->
+<section class="mt-1">
+    <div class="container pt-4">
+        <div class="block-title-w">
+            <h2 class="block-title">{{video.video_name}} · 作品概览</h2>
+            <span class="icon-title">
+                <span></span><img src="{{ url_for('static', filename='images/star.png') }}" width="30" height="30">
+            </span>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <img class="img-fluid rounded" src="{{ url_for('static', filename=video.kwargs.video_pic) }}">
+            </div>
+            <div class="col-md-8 col-sm-6 col-xs-12">
+                <h2 class="m-1 text-danger fw-bolder">剧名：{{video.video_name}}</h2>
+                <div class="fs-4 m-2 fw-bold">
+                    <a href="#"><span>出品方：{{video.kwargs.video_publisher}}</span></a>
+                    <span class="px-5">创作时间：{{video.kwargs.video_year}}年</span>
+                    <span>地区：{{video.kwargs.video_origin}}</span>
+                </div>
+                <div class="fs-4 m-2 fw-bold">
+                编剧：{% for w in video.kwargs.video_writer %}<a href="#"><span class="px-3">{{ w }}</span> </a>{%endfor%}
+                <span class="px-5">导演：
+                {% for d in video.kwargs.video_director %}<a href="#"><span class="px-3">{{ d }}</span></a> {% endfor %}
+                </span>
+                </div>
+                <div class="fs-4 m-2 fw-bold">
+                主演：{% for s in video.kwargs.video_stars %}<a href="#"><span class="px-3">{{ s }}</span> </a>{%endfor%}
+                </div>
+                <div class="fs-4 m-2 fw-normal">
+                    <span>题材分类：{{video.kwargs.video_catg}}</span>
+                    <span class="px-5">语言：{{video.kwargs.video_language}}</span>
+                </div>
+                <div class="fs-4 m-2 fw-normal">
+                    <span>首映时间：{{video.kwargs.video_first_play_time}}</span>
+                    <span class="px-5">剧集数：{{video.kwargs.video_sets_num}}</span>
+                </div>
+                <h4 class="mt-4">{{video.kwargs.video_description}}</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 影视作品·精彩剧照-->
+<section class="mt-1 py-4 bg-cz">
+    <div class="container">
+        <div class="block-title-w">
+            <h2 class="block-title">{{video.video_name}} · 精彩剧照</h2>
+            <span class="icon-title">
+                <span></span>
+                <img src="{{ url_for('static', filename='images/star.png') }}" width="30" height="30">
+            </span>
+        </div>
+        <div class="row row-wrap">
+            {% for pic in video.kwargs.video_album %}
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 item">
+                <div class="inner mb-3">
+                    <img src="{{ url_for('static', filename=pic) }}" class="img-fluid rounded" alt="精彩剧照"/>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- 影视作品·剧情介绍-->
+<section class="mt-1 bg-army">
+    <div class="container py-4">
+        <div class="row">
+            <div class="block-title-w">
+                <h2 class="block-title">{{video.video_name}} · 剧情介绍</h2>
+                <span class="icon-title">
+                    <span></span>
+                    <img src="{{ url_for('static', filename='images/star.png') }}" width="30" height="30">
+                </span>
+            </div>
+            <div class="row">
+                {% for story in video.kwargs.video_sets_story %}
+                <div class="col-6 col-xs-12 mb-2 p-1">
+                    <div class="p-1 h-100 bg-light rounded-3">
+                        <div class="fw-bold fs-4 mt-2 text-danger ps-2">
+                            <i class="bi bi-camera-video-fill"></i> {{ story.title }}
+                        </div>
+                        <img class="rounded" width="30%" src="{{ url_for('static', filename=story.image[0]) }}"/>
+                        <div class="cz-loss-decs p-2">
+                            <a href="{{ story.resourceUrl }}"><p>{{ story.description }}</p></a>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 影视作品·参考网址-->
+<section class="mt-1 bg-cz">
+    <div class="container py-4">
+        <div class="block-title-w">
+            <h2 class="block-title">{{video.video_name}} · 参考网址</h2>
+            <span class="icon-title">
+                <span></span>
+                <img src="{{ url_for('static', filename='images/star.png') }}" width="30" height="30">
+            </span>
+        </div>
+        <div class="bg-light">
+            {% for ref in video.kwargs.video_references %}
+            <div class="sub-title fw-bold fs-4 p-3 rounded-4 mb-1">{{loop.index}}. {{ ref }}</div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!--影视作品·剧情评论-->
+<section class="mt-1 bg-army">
+    <div class="container py-4">
+        <div class="row">
+            <div class="block-title-w">
+                <h2 class="block-title">{{video.video_name}} · 剧情评论</h2>
+                <span class="icon-title"><span></span>
+                <img src="{{ url_for('static', filename='images/star.png') }}" width="30" height="30"></span>
+            </div>
+            {% if video.comments %}
+            <div class="row">
+                {% for c in video.comments %}
+                <div class="mb-2 p-1">
+                    <div class="p-1 h-100 bg-light rounded-3">
+                        <div class="fw-bold fs-4 mt-2 text-danger ps-2">
+                            <a href="c.user_page_url"><img class="rounded" width="32" src="{{ c.avator_src }}"/>
+                            <span class="icon-title">{{ c.user_nick }}</span> </a>
+                            <span>{{ c.cmt_datetime }}</span>
+                        </div>
+                        <div class="cz-loss-decs p-2">
+                            <a href="{{ c.cmt_page_url }}"><p class="h3 fw-bold">{{ c.cmt_title }}</p>
+                                <p class="h5 text-dark">数据来源： {{ c.data_src }}</p>
+                                <p class="fs-4 text-dark">{{ c.cmt_content }}</p> </a>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            {% else %}
+                <h4 class="text-center m-5 p-5">暂无评论...</h4>
+            {% endif %}
+        </div>
+    </div>
+</section>
+{% else %}
+    <h2 class="text-center m-5 p-5">对不起，你要查看的影视作品详情信息暂未收录...</h2>
+{% endif %}
+
+{% endblock %}

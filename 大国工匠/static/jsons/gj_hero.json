@@ -1,0 +1,110 @@
+[
+  {
+    "heroId": "h00100001",
+    "heroName": "郭文昌",
+    "heroPublisher": "五条超人出版社",
+    "heroRank": "杰出工程师",
+    "heroPic": "images/hero/gj_gwc.jpg",
+    "heroDetail": "hero_guowenchang.json",
+    "heroDescription": "郭文昌是中国桥梁工程领域的杰出工程师，主持设计和建造了多座具有重要意义的大型跨江桥梁，为中国桥梁建设做出了重大贡献。"
+  },
+  {
+    "heroId": "h00100002",
+    "heroName": "袁隆平",
+    "heroPublisher": "五条超人出版社",
+    "heroRank": "杂交水稻育种专家",
+    "heroPic": "images/hero/gj_yuanlongping.jpg",
+    "heroDetail": "hero_yuanlongping.json",
+    "heroDescription": "袁隆平是中国杂交水稻育种专家，他领导研发出了高产优质的杂交水稻品种，为解决中国和世界粮食问题做出了巨大贡献。"
+  },
+  {
+    "heroId": "h00100003",
+    "heroName": "钱学森",
+    "heroPublisher": "五条超人出版社",
+    "heroRank": "航天科学家",
+    "heroPic": "images/hero/gj_qianxuesen.jpg",
+    "heroDetail": "hero_qianxuesen.json",
+    "heroDescription": "钱学森是中国航天科学家，他是中国航天事业的奠基人之一，主持设计和研发了中国第一颗人造卫星，为中国航天事业作出了开创性贡献。"
+  },
+  {
+    "heroId": "h00100004",
+    "heroName": "屠呦呦",
+    "heroPublisher": "五条超人出版社",
+    "heroRank": "中药药学家",
+    "heroPic": "images/hero/gj_tuyouyou.jpg",
+    "heroDetail": "hero_tuyouyou.json",
+    "heroDescription": "屠呦呦是中国中药药学家，她发现了青蒿素的抗疟疾作用，为中国和世界抗击疟疾做出了重大贡献，因此获得诺贝尔生理学或医学奖。"
+  },
+  {
+    "heroId": "h00100005",
+    "heroName": "于敏",
+    "heroPublisher": "五条超人出版社",
+    "heroRank": "网络安全专家",
+    "heroPic": "images/hero/gj_yumin.jpg",
+    "heroDetail": "hero_yumin.json",
+    "heroDescription": "于敏对中国核武器进一步发展到国际先进水平作出了重要贡献，在倡导、推动若干高科技项目研究中，发挥了重要作用。"
+  },
+  {
+    "heroId": "h00100006",
+    "heroName": "詹天佑",
+    "heroPublisher": "五条超人出版社",
+    "heroRank": "工程师",
+    "heroPic": "images/hero/gj_zhantianyou.jpg",
+    "heroDetail": "hero_zhantianyou.json",
+    "heroDescription": "詹天佑是中国工程师，他在轨道交通领域有着丰富的经验和技术成就，曾参与多个重要轨道交通项目的设计和建设。"
+  },
+  {
+    "heroId": "h00100007",
+    "heroName": "孙家栋",
+    "heroPublisher": "五条超人出版社",
+    "heroRank": "航空工程师",
+    "heroPic": "images/hero/gj_sunjiadong.jpg",
+    "heroDetail": "hero_sunjiadong.json",
+    "heroDescription": "孙家栋是中国航空工程师，他在飞机设计和航空工程领域有着丰富的经验和专业知识，曾参与多个重要航空项目的设计和研发。"
+  },
+  {
+    "heroId": "h00100008",
+    "heroName": "黄旭华",
+    "heroPublisher": "五条超人出版社",
+    "heroRank": "计算机科学家",
+    "heroPic": "images/hero/gj_huangxuhua.jpg",
+    "heroDetail": "hero_huangxuhua.json",
+    "heroDescription": "黄旭华是中国计算机科学家，他在计算机领域有着深厚的研究功底和丰富的实践经验，曾参与多个重要计算机项目的研发和实施。"
+  },
+  {
+    "heroId": "h00100009",
+    "heroName": "王淦昌",
+    "heroPublisher": "五条超人出版社",
+    "heroRank": "核科学家",
+    "heroPic": "images/hero/gj_wangjinchang.jpg",
+    "heroDetail": "hero_wangjinchang.json",
+    "heroDescription": "王淦昌是中国核科学家，他在核能领域有着丰富的研究经验和专业知识，曾参与多个重要核能项目的设计和研发。"
+  },
+  {
+    "heroId": "h001000-10",
+    "heroName": "周开达",
+    "heroPublisher": "五条超人出版社",
+    "heroRank": "杰出农业专家",
+    "heroPic": "images/hero/gj_zhoukaida.jpg",
+    "heroDetail": "hero_zhuokaida.json",
+    "heroDescription": "周开达博士是一位杰出的农业科学家，他在粮食生产和农业可持续发展方面做出了重要贡献。"
+  },
+  {
+    "heroId": "h001000011",
+    "heroName": "刘伟",
+    "heroPublisher": "五条超人出版社",
+    "heroRank": "卓越设计师",
+    "heroPic": "images/hero/gj_liuwei.jpg",
+    "heroDetail": "hero_liuwei.json",
+    "heroDescription": "刘伟是一位卓越的建筑设计师，他设计了多项标志性建筑，为城市的发展和美化做出了杰出贡献。"
+  },
+  {
+    "heroId": "h001000012",
+    "heroName": "杨廷宝",
+    "heroPublisher": "五条超人出版社",
+    "heroRank": "杰出科学家",
+    "heroPic": "images/hero/gj_yangyanbao.jpg",
+    "heroDetail": "hero_yangyanbao.json",
+    "heroDescription": "杨延宝，著名建筑学家，中国近现代建筑设计开拓者之一，中国科学院学部委员技术科学部委员。"
+  }
+]

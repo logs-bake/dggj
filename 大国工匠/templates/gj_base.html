@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %} 大国工匠 {% endblock %}</title>
+
+    {# Bootstrap 的 CSS 文件 #}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap-icons.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/cz_style.css') }}">
+
+    {% block links %} {% endblock %}
+</head>
+<body class="d-flex flex-column h-100">
+{% block header %}
+<header class="p-3 bg-light">
+    <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="#" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                <img style="width:100px; height:50px;" src="{{ url_for('static', filename='images/gj.jpg') }}">
+            </a>
+
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 fs-4">
+                <li><a href="/" class="nav-link px-2">首页</a></li>
+                <li><a href="{{ url_for('video.video_list_page') }}" class="nav-link px-2">影视</a></li>
+                <li><a href="{{ url_for('literature.lit_list_page') }}" class="nav-link px-2">文学</a></li>
+                <li><a href="{{ url_for('battle.bat_list_page') }}" class="nav-link px-2">成就</a></li>
+                <li><a href="{{ url_for('memorial.mem_list_page') }}" class="nav-link px-2">纪念</a></li>
+                <li><a href="{{ url_for('hero.hero_list_page') }}" class="nav-link px-2">工匠</a></li>
+                <li><a href="{{ url_for('history.history_list_page') }}" class="nav-link px-2">国之重器</a></li>
+            </ul>
+
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                <div role="search">
+                    <input type="search" class="form-control form-control-dark"
+                           placeholder="搜索..." aria-label="Search">
+                </div>
+            </form>
+            {% if 'username' in session %}
+            <div class="text-end">
+                {% block jsincludes %}
+
+                <script src="{{ url_for('static', filename='js/cz_head.js') }}"></script>
+
+                {% endblock %}
+
+                <span>欢迎：{{ session.username }}</span>
+                <a href="{{ url_for('auth.logout') }}" class="btn btn-outline-danger">注销</a>
+            </div>
+            {% else %}
+            <div class="text-end">
+                <a href="{{ url_for('auth.register') }}" class="btn btn-outline-success me-2">注册</a>
+                <a href="{{ url_for('auth.login') }}" class="btn btn-outline-danger">登录</a>
+            </div>
+            {% endif %}
+
+        </div>
+    </div>
+</header>
+{% endblock %}
+
+<main>
+    {% block main %}
+    <div class="w-100 my-5 py-5 text-center">
+        <h1>这是页面的内容区域</h1>
+    </div>
+    {% endblock %}
+</main>
+
+{% block footer %}
+<div class="container">
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item">
+                <a href="#" class="nav-link px-2 text-muted">返回首页</a>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">联系我们</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">友情链接</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">关于我们</a></li>
+        </ul>
+        <p class="text-center text-muted">版权所有 &copy;2024 五条超人</p>
+    </footer>
+</div>
+{% endblock %}
+
+<script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
+
+{% block jsinclude %}  {% endblock %}
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

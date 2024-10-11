@@ -1,0 +1,110 @@
+{% extends "gj_base.html" %}
+
+{% block title %} 用户注册 {% endblock %}
+{% block links %}
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/register.css') }}">
+{% endblock %}
+
+{% block main %}
+<div class="modal modal-signin position-static d-block bg-light py-5"
+     tabindex="-1" role="dialog" id="modalSignin">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content rounded-2 shadow">
+            <div class="modal-header p-5 pb-4 border-bottom-0">
+                <h2 class="fw-bold mb-0 col-12 text-center">用户注册</h2>
+            </div>
+            <div class="modal-body p-5 pt-0">
+                {% if register_errmsg %}
+                <p class="mb-3 col-12 text-danger">* {{ register_errmsg }}</p>
+                {% endif %}
+                <form class="needs-validation" action="{{ url_for('auth.register') }}"
+                     enctype="multipart/form-data" method="post" novalidate>
+                    <div class="form-floating mb-3">
+                        <input class="form-control rounded-2" id="username" name="username"
+                                value="{{ username }}" placeholder="用户名(5-20位)" required>
+                        <label for="username">用户名(5-20位)</label>
+                        <div class="invalid-feedback">请输入用户名(5-20位)</div>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input class="form-control rounded-2" id="mobile" name="mobile"
+                                value="{{ mobile }}" placeholder="手机号码" required>
+                        <label for="mobile">手机号码</label>
+                        <div class="invalid-feedback">请输入正确的手机号码</div>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control rounded-2" id="email" name="email"
+                               value="{{ email }}" placeholder="name@example.com" required>
+                        <label for="email">邮箱地址</label>
+                        <div class="invalid-feedback">请输入正确的邮箱地址</div>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="password" class="form-control rounded-2" id="password" name="password"
+                               value="{{password}}" placeholder="密码(8-20位，字母、数字、特殊字符的二种以上)" required>
+                        <label for="password">密码</label>
+                        <div class="invalid-feedback">请输入密码</div>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="password" class="form-control rounded-2" id="password2" name="password2"
+                               value="{{password2}}" placeholder="确认密码" required>
+                        <label for="password2">确认密码</label>
+                        <div class="invalid-feedback">请再次确认密码</div>
+                    </div>
+
+                    <div class="upload-content ">
+                        <div class="content-img mb-3">
+                            <div class="file">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                     fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                          d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0
+                                          1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+                                </svg>
+                                <span>上传用户头像</span>
+                                <input type="file" accept="image/*" id="avatar" name="avatar"
+                                       onchange="headSelect()">
+                            </div>
+                            <div class="head-img img-thumbnail text-center">
+                                <img id="preview" src="{{ url_for('static', filename='images/gj1.jpg') }}" alt="预览">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="allow" name="allow">
+                            <label class="form-check-label" for="allow">
+                                同意用户协议
+                            </label>
+                        </div>
+                    </div>
+                    <button class="w-100 mb-2 btn btn-lg rounded-2 btn-primary" type="submit">注 册</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block jsinclude %}
+<script src="{{ url_for('static', filename='js/form-validation.js') }}"></script>
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

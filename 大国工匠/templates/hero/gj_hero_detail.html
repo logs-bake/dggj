@@ -1,0 +1,112 @@
+{% extends "/gj_base.html" %}
+{% block title %} {{hero.hero_name}} {% endblock %}
+{% block main %}
+
+{% if hero %}
+
+
+<!-- 战例·概览-->
+<section class="mt-1">
+    <div class="container pt-4">
+        <div class="block-title-w">
+            <h2 class="block-title">{{hero.hero_name}} · 概览</h2>
+            <span class="icon-title">
+                <span></span><img src="{{ url_for('static', filename='images/star.png') }}" width="30" height="30">
+            </span>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <img class="img-fluid rounded" src="{{ url_for('static', filename=hero.kwargs.hero_pic) }}">
+            </div>
+            <div class="col-md-8 col-sm-6 col-xs-12">
+                <h2 class="m-1 text-danger fw-bolder">名称：{{hero.hero_name}}</h2>
+                <div class="fs-4 m-2 fw-bold">
+                    <a href="#"><span>地点：{{hero.kwargs.hero_site}}</span></a>
+                    <span class="px-5">身份：{{hero.kwargs.hero_rank}}</span><br>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="mt-1 py-4 bg-cz">
+    <div class="container">
+        <div class="block-title-w">
+            <h2 class="block-title">{{hero.hero_name}} · 照片</h2>
+            <span class="icon-title">
+                <span></span>
+                <img src="{{ url_for('static', filename='images/star.png') }}" width="30" height="30">
+            </span>
+        </div>
+        <div class="row row-wrap">
+            {% for pic in hero.kwargs.hero_album %}
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 item">
+                <div class="inner mb-3">
+                    <img src="{{ url_for('static', filename=pic) }}" class="img-fluid rounded" alt="照片"/>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+
+<!-- 影视作品·剧情介绍-->
+<section class="mt-1 bg-army">
+    <div class="container py-4">
+        <div class="row">
+            <div class="block-title-w">
+                <h2 class="block-title">{{hero.hero_name}} · 介绍</h2>
+                <span class="icon-title">
+                    <span></span>
+                    <img src="{{ url_for('static', filename='images/star.png') }}" width="30" height="30">
+                </span>
+            </div>
+            <div class="row">
+
+                <h4 class="m-1 text-danger fw-bolder">Ⅰ</h4>
+                {% for b in hero.kwargs.hero_introduction %}<span class="px-3">{{ b }} </span>{% endfor %}<br>
+
+
+                <h4 class="m-1 text-danger fw-bolder">Ⅱ</h4>
+                    {% for b in hero.kwargs.hero_evaluate %}<span class="px-3">{{ b }} </span>{% endfor %}<br>
+
+                <h4 class="m-1 text-danger fw-bolder">Ⅲ</h4>
+                    {% for b in hero.kwargs.hero_mark %}<span class="px-3">{{ b }} </span>{% endfor %}<br>
+                <h4 class="m-1 text-danger fw-bolder">Ⅳ</h4>
+                    {% for b in hero.kwargs.hero_achievement %}<span class="px-3">{{ b }} </span>{% endfor %}<br>
+            </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- 战例·参考网址-->
+<section class="mt-1 bg-cz">
+    <div class="container py-4">
+        <div class="block-title-w">
+            <h2 class="block-title">{{hero.hero_name}} · 参考网址</h2>
+            <span class="icon-title">
+                <span></span>
+                <img src="{{ url_for('static', filename='images/star.png') }}" width="30" height="30">
+            </span>
+        </div>
+        <div class="bg-light">
+            {% for ref in hero.kwargs.hero_references %}
+            <div class="sub-title fw-bold fs-4 p-3 rounded-4 mb-1">{{loop.index}}. {{ ref }}</div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+
+{% else %}
+    <h2 class="text-center m-5 p-5">对不起，你要查看的影视作品详情信息暂未收录...</h2>
+{% endif %}
+
+{% endblock %}

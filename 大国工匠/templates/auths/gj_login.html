@@ -1,0 +1,82 @@
+{% extends "gj_base.html" %}
+
+{% block title %} 用户登录 {% endblock %}
+
+{% block main %}
+<div class="modal modal-signin position-static d-block bg-light py-5" tabindex="-1">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content rounded-2 shadow">
+            <div class="modal-header p-5 pb-4 border-bottom-0">
+                <h2 class="fw-bold mb-0 col-12 text-center">用户登录</h2>
+            </div>
+
+            <div class="modal-body p-5 pt-0">
+                {% if account_errmsg %}
+                <p class="mb-3 col-12 text-danger">* {{ account_errmsg }}</p>
+                {% endif %}
+                <form class="needs-validation" action="{{ url_for('auth.login') }}" method="post" novalidate>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control rounded-2" id="username" name="username"
+                               value="{{ username }}" placeholder="用户名/手机号码" required>
+                        <label for="username">用户名/手机号码</label>
+                        <div class="invalid-feedback">
+                            请输入用户名/手机号码
+                        </div>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="password" class="form-control rounded-2" id="password" name="password"
+                               value="{{ password }}" placeholder="密码" required>
+                        <label for="password">密码</label>
+                         <div class="invalid-feedback">
+                            请输入密码
+                        </div>
+                    </div>
+                    <button class="w-100 mb-2 btn btn-lg rounded-2 btn-primary" type="submit">登 录</button>
+                    <div class="modal-header border-bottom-0">
+                        <div class="mb-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="remembered"
+                                       name="remembered">
+                                <label class="form-check-label" for="remembered">
+                                    记住登录
+                                </label>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            没有账号？<a href="{{ url_for('auth.register') }}"> 去注册 </a>
+                             | <a href="{{ url_for('auth.modify_info') }}"> 忘记密码 </a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block jsinclude %}
+<script src="{{ url_for('static', filename='js/form-validation.js') }}"></script>
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

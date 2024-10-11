@@ -1,0 +1,105 @@
+{
+    "videoId": "v00100001",
+    "videoName": "大国工匠第四季",
+    "videoType": "ds",
+    "videoPic": "images/video/vid_gj_ds.jpg",
+    "videoPublisher": "中央电视台",
+    "videoDetail": "vid_changzheng_ds.json",
+    "videoDescription": "8集《大国工匠第四季》是由沈世平，赵良、蒋俊杰共同执导，在节目中，观众可以看到各种各样的工匠，包括传统手工艺人、工厂车间的技术工人、高端科技领域的专家等。他们的故事涉及从传统到现代、从基础到尖端的技术路径，展现了中国工匠精神的传承和创新。",
+    "videoWriter": ["沈世平"],
+    "videoDirector": ["赵良","蒋俊杰"],
+    "videoStars": ["管延安","高风林","周东红","胡双钱"],
+    "videoYear": "2016",
+    "videoSetsNum": 8,
+    "videoOrigin": "中国大陆",
+    "videoCatg": "纪录片",
+    "videoLanguage": "普通话",
+    "videoFirstPlayTime": "2016-10-01",
+    "videoSetsStory": [
+        {
+            "title": "大国工匠 第1集",
+            "image": ["images/video/cz_ds/vid_gj_ds_cov_1.jpg"],
+            "description": "无俱冒水塌方，软若豆腐般岩层间精准爆破；\n\n磕碰即爆，徒手雕琢高能炸药块体；\n\n百米高变，只身检修百万伏，特高压带电线路；",
+            "resourceUrl": ""
+        },
+        {
+            "title": "大国工匠 第2集",
+            "image": ["images/video/cz_ds/vid_gj_ds_cov_2.jpg"],
+            "description": "坦克车体八百多条焊缝，牙咬焊帽，单手完成；\n\n超薄钢板焊枪绣花，14公里繁难焊缝无一漏点；（殷瓦钢殷瓦合金（invar，也称为殷钢），是一种镍铁合金，其成分为镍36%，铁63.8%，碳0.2%，它的热膨胀系数极低，能在很宽的温度范围内保持固定长度。）\n\n密闭高温，火花淋浴，焊接核电站高压管道100%合格；",
+            "resourceUrl": ""
+        },
+        {
+            "title": "大国工匠 第3集",
+            "image": ["images/video/cz_ds/vid_gj_ds_cov_3.jpg"],
+            "description": "食管脏肉与粘膜间，毫米级夹层打开手术隧道，\n\n22道工序道道入微手工打制渔船滴水不漏，\n\n四十多万块面板，拼出能和星星对话的大型球面镜；",
+            "resourceUrl": ""
+        },
+        {
+            "title": "大国工匠 第4集",
+            "image": ["images/video/cz_ds/vid_gj_ds_cov_4.jpg"],
+            "description": "薄如蝉翼白胜雪，极品宣纸依古法重续传奇；（薄如蝉翼白如雪，抖似细绸不闻声）\n\n银落乱真于丝巾，依古法百万次錾击而成；\n\n异国古钟恢复青春，参悟两个多世纪前的古法而得；",
+            "resourceUrl": ""
+        },
+        {
+            "title": "大国工匠 第5集",
+            "image": ["images/video/cz_ds/vid_gj_ds_cov_5.jpg"],
+            "description": "周锦唐罗，何人能够复织；\n\n宋元名瓷，今窑如何烧就；\n\n摩崖巨作，能否拓像传世；",
+            "resourceUrl": ""
+        },
+        {
+            "title": "大国工匠 第6集",
+            "image": ["images/video/cz_ds/vid_gj_ds_cov_6.jpg"],
+            "description": "减少一微米变形，能缩小火箭几公里的轨道误差；\n\n靠手触摸安装缝隙控制在一根头发的五十分之一；（蛟龙号观察窗的贴合处）\n\n蒙上眼睛，方寸之间也能插接百条线路；",
+            "resourceUrl": ""
+        },
+        {
+            "title": "大国工匠 第7集",
+            "image": ["images/video/cz_ds/vid_gj_ds_cov_7.jpg"],
+            "description": "手指触摸测量如透视般精准，挑战数控机床，下刀依然完美；\n\n自制改进工具数百件，加工精度逼近零公差；\n\n人民币人像雕刻顶尖高手，使刀成圣同样可换笔夺魁；",
+            "resourceUrl": ""
+        },
+        {
+            "title": "大国工匠 第8集",
+            "image": ["images/video/cz_ds/vid_gj_ds_cov_8.jpg"],
+            "description": "心怀梦想，心平手稳，焊接飞天神箭；\n\n毫厘之间，把握分寸，重现旷世兵马俑；\n\n肉眼难辨，手工打造精美弧线，托举中国大飞机翱翔蓝天；",
+            "resourceUrl": ""
+        }
+    ],
+    "videoAlbum": [
+        "images/video/cz_ds/vid_gj_ds_1.jpg",
+		"images/video/cz_ds/vid_gj_ds_2.jpg",
+		"images/video/cz_ds/vid_gj_ds_3.jpg",
+		"images/video/cz_ds/vid_gj_ds_4.jpg",
+		"images/video/cz_ds/vid_gj_ds_5.jpg",
+		"images/video/cz_ds/vid_gj_ds_6.jpg",
+		"images/video/cz_ds/vid_gj_ds_7.jpg",
+		"images/video/cz_ds/vid_gj_ds_8.jpg",
+		"images/video/cz_ds/vid_gj_ds_9.jpg",
+		"images/video/cz_ds/vid_gj_ds_10.jpg",
+		"images/video/cz_ds/vid_gj_ds_11.jpg",
+		"images/video/cz_ds/vid_gj_ds_12.jpg",
+		"images/video/cz_ds/vid_gj_ds_13.jpg",
+		"images/video/cz_ds/vid_gj_ds_14.jpg",
+		"images/video/cz_ds/vid_gj_ds_15.jpg",
+		"images/video/cz_ds/vid_gj_ds_16.jpg",
+		"images/video/cz_ds/vid_gj_ds_17.jpg",
+		"images/video/cz_ds/vid_gj_ds_18.jpg",
+		"images/video/cz_ds/vid_gj_ds_19.jpg",
+		"images/video/cz_ds/vid_gj_ds_20.jpg",
+		"images/video/cz_ds/vid_gj_ds_21.jpg",
+		"images/video/cz_ds/vid_gj_ds_22.jpg",
+		"images/video/cz_ds/vid_gj_ds_23.jpg"
+    ],
+	"videoReferences": [
+        "https://movie.douban.com/subject/26910902/",
+        "https://www.bilibili.com/video/BV1pF41147DD?p=8",
+        "https://movie.douban.com/review/14366252/"
+    ]
+}
+
+
+
+
+
+
+

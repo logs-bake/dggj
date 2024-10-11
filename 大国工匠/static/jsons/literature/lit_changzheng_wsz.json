@@ -1,0 +1,31 @@
+﻿{
+    "literatureId": "L00100001",
+    "literatureName": "《长征》",
+    "literatureType": "jswx",
+    "literatureAuthor": "王树增",
+    "literatureAuthorBrief": "王树增，1952年生于北京，中国战争题材作家。著有长篇纪实文学《长征》《朝鲜战争》《解放战争》，非虚构中国近代史系列《1901》、《1911》等。作品曾获中国人民解放军文艺大奖、中国图书政府奖、全国五个一工程奖、鲁迅文学奖、中国人民解放军文艺奖、曹禺戏剧文学奖。",
+    "literaturePublisher": "人民文学出版社",
+    "literatureISBN": "9787020116379",
+    "literatureDate": "2006-09-01",
+    "literaturePic": "images/literature/lit_changzheng_wsz.jpg",
+    "literatureDetail": "lit_lliupanshan_mzd.json",
+    "literatureDescription": "王树增的《长征》从人类文明发展的高度重新认识了长征的重要意义，是红军长征70年以来，第一部用纪实的方式最全面的反映长征的文学作品。",
+    "literatureCatalog": [
+        "images/literature/changzheng_wsz/lit_changzheng_wsz_1.jpg",
+        "images/literature/changzheng_wsz/lit_changzheng_wsz_2.jpg",
+        "images/literature/changzheng_wsz/lit_changzheng_wsz_3.jpg",
+        "images/literature/changzheng_wsz/lit_changzheng_wsz_4.jpg",
+        "images/literature/changzheng_wsz/lit_changzheng_wsz_5.jpg"
+    ],
+    "literatureIntroduction": [
+        "images/literature/changzheng_wsz/lit_changzheng_wsz_6.jpg",
+        "images/literature/changzheng_wsz/lit_changzheng_wsz_7.jpg",
+        "images/literature/changzheng_wsz/lit_changzheng_wsz_8.jpg",
+        "images/literature/changzheng_wsz/lit_changzheng_wsz_9.jpg",
+        "images/literature/changzheng_wsz/lit_changzheng_wsz_10.jpg",
+        "images/literature/changzheng_wsz/lit_changzheng_wsz_11.jpg"
+    ],
+    "literatureReferences": [
+        "https://baike.baidu.com/item/%E9%95%BF%E5%BE%81/18603378?fr=aladdin"
+    ]
+}

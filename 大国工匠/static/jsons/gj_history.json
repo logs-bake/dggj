@@ -1,0 +1,61 @@
+[{
+        "historyId": "hi0100001",
+        "historyName": "港珠澳大桥",
+        "historyType": "建筑",
+        "historyDate": "1934-10-08",
+        "historyCollection": "港珠澳大桥",
+        "historyPic": "images/history/gangzhuaodaqiao.jpg",
+        "historyDetail": "his_zgzywyh_zywj_xl.json",
+        "historyDescription": "港珠澳大桥的前身是原规划中的伶仃洋大桥。20世纪80年代初，中国香港、中国澳门与中国内地之间的陆地运输通道虽不断完善，但香港与珠江三角洲西岸地区的交通联系因伶仃洋的阻隔而受到限制；同世纪90年代末，受亚洲金融危机影响，香港特别行政区政府认为有必要尽快建设连接港珠澳三地的跨海通道，以发挥港澳优势，寻找新的经济增长点。"
+    },
+    {
+        "historyId": "hi0200002",
+        "historyName": "长征一号",
+        "historyType": "火箭",
+        "historyDate": "1935-11-18",
+        "historyCollection": "载人航天运载火箭",
+        "historyPic": "images/history/chnangzheng.jpg",
+        "historyDetail": "his_zgzywyh_zywj_xl.json",
+        "historyDescription": "长征一号是20世纪70年代初期中国研制的一型三级运载火箭，为发射中国第一颗人造地球卫星而立项研制,长征一号作为中国研制的第一代第一型运载火箭，拉开了中国进军太空的序幕，使中国成为世界上第五个自行研制发射人造卫星的空间大国"
+    },
+    {
+        "historyId": "hi0300003",
+        "historyName": "核潜艇",
+        "historyType": "潜艇",
+        "historyDate": "1935-10-15",
+        "historyCollection": "核潜艇",
+        "historyPic": "images/history/heqianting.jpg",
+        "historyDetail": "his_zgzywyh_zywj_xl.json",
+        "historyDescription": "1970年，我国第一艘核潜艇下水；1974年建军节，这艘核潜艇被命名为“长征1号”，正式加入海军战斗序列。我国终于扬眉吐气，成为继美、苏、英、法之后世界上第5个拥有核潜艇的国家。1983年，黄旭华被任命为第一代核潜艇的总设计师。"
+    },
+    {
+        "historyId": "hi0400004",
+        "historyName": "C919大飞机 ",
+        "historyType": "飞机",
+        "historyDate": "",
+        "historyCollection": "C919大飞机",
+        "historyPic": "images/history/c919.jpg",
+        "historyDetail": "his_zgzywyh_zywj_xl.json",
+        "historyDescription": "C919飞机，全称COMAC919，是我国按照国际民航规章自行研制、具有自主知识产权的大型喷气式民用飞机，座级158-168座，航程4075-5555公里。目前，已经完成立项论证、可行性论证、预发展阶段工作，转入工程发展阶段。2015年11月2日完成总装下线。累计28家客户815架订单。 性能与国际新一代的主流单通道客机相当。于2017年5月5日成功首飞"
+    },
+    {
+        "historyId": "hi0500005",
+        "historyName": "坦克战车",
+        "historyType": "坦克",
+        "historyDate": "1936-10-10",
+        "historyCollection": "坦克战车",
+        "historyPic": "images/history/tanke.jpg",
+        "historyDetail": "his_zgzywyh_zywj_xl.json",
+        "historyDescription": "内蒙古第一机械集团首席焊接技师卢仁峰的工作，就是把战车的装甲钢板严丝合缝地焊为一体。初见卢仁峰，人们都会不自觉地将目光落到他的手上——这个把装甲焊接做到极致的专家型工匠，居然只有一只完好的手。从最早的59式坦克到新型主战坦克，有“独臂焊侠”之称的卢仁峰与中国坦克战车制造发展一同成长。"
+    },
+        {
+        "historyId": "hi0600006",
+        "historyName": "福建舰",
+        "historyType": "航空母舰",
+        "historyDate": "1936-10-10",
+        "historyCollection": "航空母舰——福建舰",
+        "historyPic": "images/history/fujianjian.jpg",
+        "historyDetail": "his_zgzywyh_zywj_xl.json",
+        "historyDescription": "中国人民解放军海军福建舰,舷号：18，简称福建舰），是中国完全自主设计建造的首艘弹射型航空母舰，采用平直通长飞行甲板，配置电磁弹射和阻拦装置，满载排水量8万余吨。2022年6月17日，经中央军委批准，中国第三艘航空母舰命名为“中国人民解放军海军福建舰”，舷号为“18” 2024年5月1日上午-5月8日下午，福建舰出海顺利完成首次航行试验。"
+    }
+]

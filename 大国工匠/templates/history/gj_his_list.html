@@ -1,0 +1,39 @@
+{% extends "gj_base.html" %}
+
+{% block title %} 影视作品列表 {% endblock %}
+
+{% block links %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/cz_style.css') }}">
+{% endblock %}
+
+{% block main %}
+<div class="album py-5">
+    <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            {% for v in his_list %}
+            <div class="col">
+                <div class="card shadow-sm">
+
+                        <img class="bd-placeholder-img card-img-top" height="350" src="{{ url_for('static', filename=v.history_pic) }}">
+
+                    <div class="card-body">
+                        <p class="card-text">{{v.history_description}}</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a  href="{{ url_for('history.history_detail_page',his=v.history_id,fname=v.history_detail) }}"
+                                        class="btn btn-sm btn-outline-secondary">查看详情</a>
+
+                            </div>
+                            <small class="text-muted h5 fw-bolder">{{v.history_collection}}</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock %}

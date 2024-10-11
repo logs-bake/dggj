@@ -1,0 +1,117 @@
+{% extends "/gj_base.html" %}
+{% block title %} {{memorial.memorial_name}} {% endblock %}
+{% block main %}
+
+{% if memorial %}
+
+<!--影视作品·作品概览-->
+<section class="mt-1">
+    <div class="container pt-4">
+        <div class="block-title-w">
+            <h2 class="block-title">{{memorial.memorial_name}} · 纪念馆名称</h2>
+            <span class="icon-title">
+        <span></span><img src="{{ url_for('static', filename='images/star.png') }}" width="30" height="30">
+      </span>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <img class="img-fluid rounded" src="{{ url_for('static', filename=memorial.kwargs.memorial_pic) }}">
+            </div>
+            <div class="col-md-8 col-sm-6 col-xs-12">
+                <h2 class="m-1 text-danger fw-bolder">场馆名：{{memorial.memorial_name}}</h2>
+
+                <h4 class="fs-4 m-2 fw-bold">描述：{{memorial.kwargs.memorial_description}}</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--影视作品·精彩剧照-->
+<section class="mt-1 py-4 bg-cz">
+    <div class="container">
+        <div class="block-title-w">
+            <h2 class="block-title">{{memorial.memorial_name}} · 纪念馆图集</h2>
+            <span class="icon-title">
+        <span></span>
+        <img src="{{ url_for('static', filename='images/star.png') }}" width="30" height="30">
+      </span>
+        </div>
+        <div class="row row-wrap">
+            {% for pic in memorial.kwargs.memorial_album %}
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 item">
+                <div class="inner mb-3">
+                    <img src="{{ url_for('static', filename=pic) }}" class="img-fluid rounded" alt="精彩剧照"/>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<section class="mt-1 bg-army">
+    <div class="container py-4">
+        <div class="row">
+            <div class="block-title-w">
+                <h2 class="block-title">{{memorial.video_name}} · 剧情介绍</h2>
+                <span class="icon-title">
+                    <span></span>
+                    <img src="{{ url_for('static', filename='images/star.png') }}" width="30" height="30">
+                </span>
+            </div>
+            <div class="row">
+                {% for story in memorial.kwargs.memorial_relics %}
+                <div class="col-6 col-xs-12 mb-2 p-1">
+                    <div class="p-1 h-100 bg-light rounded-3">
+                        <img class="rounded" width="30%" src="{{ url_for('static', filename=story.image[0]) }}"/>
+                        <div class="cz-loss-decs p-2">
+                            <a href="{{ story.resourceUrl }}"><p>{{ story.description }}</p></a>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--影视作品·剧情介绍-->
+<section class="mt-1 bg-army">
+    <div class="container py-4">
+        <div class="row">
+            <div class="block-title-w">
+                <h2 class="block-title">{{memorial.memorial_name}} · 纪念馆介绍</h2>
+                <span class="icon-title">
+        <span></span>
+        <img src="{{ url_for('static', filename='images/star.png') }}" width="30" height="30">
+      </span>
+            </div>
+            <div class="row">
+                介绍：{% for s in memorial.kwargs.memorial_introduction %}<span class="px-3">{{ s }}</span>{%endfor%}
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--影视作品·参考网址-->
+<section class="mt-1 bg-cz">
+    <div class="container py-4">
+        <div class="block-title-w">
+            <h2 class="block-title">{{memorial.memorial_name}} · 参考网址</h2>
+            <span class="icon-title">
+        <span></span>
+        <img src="{{ url_for('static', filename='images/star.png') }}" width="30" height="30">
+      </span>
+        </div>
+        <div class="bg-light">
+            {% for ref in memorial.kwargs.memorial_references %}
+            <div class="sub-title fw-bold fs-4 p-3 rounded-4 mb-1">{{loop.index}}. {{ref}}</div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+{% else %}
+<h2 class="text-center m-5 p-5">对不起，你要查看的影视作品详情信息暂未收录...</h2>
+{% endif %}
+
+{% endblock %}

@@ -1,0 +1,115 @@
+{% extends "/gj_base.html" %}
+{% block title %} {{ literature.literature_name }} {% endblock %}
+{% block main %}
+
+{% if literature %}
+<!-- 文学作品·作品概览-->
+<section class="mt-1">
+    <div class="container pt-4">
+        <div class="block-title-w">
+            <h2 class="block-title">{{ literature.literature_name }} · 作品</h2>
+            <span class="icon-title">
+                <span></span>
+                <img src="{{ url_for('static', filename='images/gjxiao.jpg') }}" width="30" height="30">
+            </span>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <img class="img-fluid rounded" src="{{ url_for('static', filename=literature.kwargs.literature_pic) }}">
+            </div>
+            <div class="col-md-8 col-sm-6 col-xs-12">
+                <h2 class="m-1 text-danger fw-bolder">书名：{{ literature.literature_name }}</h2>
+                <div class="fs-4 m-2 fw-bold">
+                    作者：{% for w in literature.kwargs.literature_author %}
+                    <span> {{ w }} </span>{% endfor %}
+                    <span class="px-5">出版社：{{ literature.kwargs.literature_publisher }}</span>
+                    <span class="px-5">出版日期：{{ literature.kwargs.literature_date }}</span>
+                    <p class="px-5" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        语言：{{ literature.kwargs.literature_origin }}</p>
+                </div>
+                <h4 class="my-4">{{literature.kwargs.literature_description}}</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 影视作品·精彩章节 -->
+<section class="mt-1 py-4 bg-cz">
+    <div class="container">
+        <div class="block-title-w">
+            <h2 class="block-title">{{literature.literature_name}} · 书籍推荐</h2>
+            <span class="icon-title">
+                <span></span>
+                <img src="{{ url_for('static', filename='images/gjxiao.jpg') }}" width="30" height="30">
+            </span>
+        </div>
+        <div class="row row-wrap">
+            {% for pic in literature.kwargs.literature_catalog %}
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 item">
+                <div class="inner mb-3">
+                    <img src="{{ url_for('static', filename=pic) }}" class="img-fluid rounded" alt="书籍章节照片"/>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- 影视作品·剧情介绍 -->
+<section class="mt-1 bg-army">
+    <div class="container py-4">
+        <div class="row">
+            <div class="block-title-w">
+                <h2 class="block-title">{{literature.literature_name}} · 文化传承之隗宝</h2>
+                <span class="icon-title">
+                    <span></span>
+                    <img src="{{ url_for('static', filename='images/gjxiao.jpg') }}" width="30" height="30">
+                </span>
+            </div>
+            <div class="row">
+                {% for story in literature.kwargs.literature_sets_story %}
+                <div class="col-6 col-xs-12 mb-2 p-1">
+                    <div class="p-1 h-100 bg-light rounded-3">
+                        <div class="fw-bold fs-4 mt-2 text-danger ps-2">
+                            <i class="bi bi-camera-literature-fill"></i> {{ story.title }}
+                        </div>
+                        <img class="rounded" width="30%" src="{{ url_for('static', filename=story.image[0]) }}"/>
+                        <div class="cz-loss-decs p-2">
+                            <a href="{{ story.resourceUrl }}"><p>{{ story.description }}</p></a>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 影视作品·参考网址 -->
+<section class="mt-1 bg-cz">
+    <div class="container py-4">
+        <div class="block-title-w">
+            <h2 class="block-title">{{literature.literature_name}} · 参考网址</h2>
+            <span class="icon-title">
+                <span></span>
+                <img src="{{ url_for('static', filename='images/gjxiao.jpg') }}" width="30" height="30">
+            </span>
+        </div>
+        <div class="bg-light">
+            {%for ref in literature.kwargs.literature_references %}
+            <div class="sub-title fw-bold fs-4 p-3 rounded-4 mb-1">{{loop.index}}.{{ ref }}</div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+
+
+
+{% else %}
+       <h2 class="text-center m-5 p-5">对不起，你要查看的文学作品详情信息暂未收录</h2>
+{% endif %}
+
+{% endblock %}

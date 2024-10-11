@@ -1,0 +1,58 @@
+[
+  {
+    "videoId": "v00100001",
+    "videoName": "第四季",
+    "videoType": "ds",
+    "videoPic": "images/video/vid_gj1.jpg",
+    "videoPublisher": " 五条超人出版社  ",
+    "videoDetail": "vid_changzheng_ds.json",
+    "videoDescription": "由全国总工会与中宣部、中央电视台联合制作的八集新闻专题片《大国工匠》，据了解，《大国工匠》新闻专题片将从大勇不惧、大巧破难、大道无疆、大任担当等层面，讲述来自24个不同行业的当代中国工匠的人生故事，展示他们非凡的职业绝技。"
+  },
+  {
+    "videoId": "v00200001",
+    "videoName": "第一季",
+    "videoType": "dy",
+    "videoPic": "images/video/vid_gj2.jpg",
+    "videoPublisher": " 五条超人出版社",
+    "videoDetail": "vid_changzheng_dy.json",
+    "videoDescription": "《大国工匠》是2015年“五一”开始，央视新闻推出八集系列节目。《大国工匠》讲述了8个工匠“8双劳动的手”所缔造的神话。他们数十年如一日地追求着职业技能的极致化，靠着传承和钻研，凭着专注和坚守，缔造了一个又一个的“中国制造”。 "
+  },
+  {
+    "videoId": "v00300001",
+    "videoName": "第二季",
+    "videoType": "hj",
+    "videoPic": "images/video/vid_gj3.jpg",
+    "videoPublisher": " 五条超人出版社",
+    "videoDetail": "vid_changzheng_hj.json",
+    "videoDescription": "他们默默无闻，平凡岗位深藏报国雄心；他们精工细作，毫厘之间追寻造物极致，打磨国之重器；《大国工匠》再次将镜头对准这些岗位特殊、技艺过人、身份平凡的“铸剑人”，用震撼人心的影像向他们致敬。新闻频道9月30日—10月8日《朝闻天下》首播。"
+  },
+  {
+    "videoId": "v00100002",
+    "videoName": "第三季",
+    "videoType": "ds",
+    "videoPic": "images/video/vid_gj4.jpg",
+    "videoPublisher": " 五条超人出版社",
+    "videoDetail": "vid_jueminghouweishi_ds.json",
+    "videoDescription": "大国工匠》第三季报道\"匠心传世\"于4月27日-5月2日在中央电视台《新闻联播》和新闻频道播出.节目在秉承前两季节目制作理念的基础上,注重在我国源远流长的匠人文化中,发掘薪火相传,体知躬行的传承脉络,呼吁一份执著坚忍,追求卓越的\"匠心\".本季节目继续聚焦代表国家实力的高精尖领域技术工人,如航空发动机装配工,特种钢管精镗工,高级铸造技师等。"
+  },
+  {
+    "videoId": "v00200002",
+    "videoName": "第五季",
+    "videoType": "dy",
+    "videoPic": "images/video/vid_gj5.jpg",
+    "videoPublisher": " 五条超人出版社",
+    "videoDetail": "vid_daduhe_dy.json",
+    "videoDescription": "本季可能会涵盖更广泛的领域和行业，包括但不限于传统工艺、制造业、建筑工程、航空航天、信息技术、医疗器械等。通过展示不同领域的工匠们如何通过扎实的技术和精湛的工艺，为中国制造业的发展和创新做出贡献。\n\n此外，节目可能还会突出一些具有代表性和标志性意义的项目和成就，如中国制造2025重点领域的创新发展、工匠精神在精准扶贫和乡村振兴中的应用等。"
+  },{
+  "videoId": "v00200002",
+  "videoName": "大国工匠",
+  "videoType": "documentary",
+  "videoPic": "images/video/vid_gj6.jpg",
+  "videoPublisher": "大国制造出版社",
+  "videoDetail": "daguo_gongjiang.json",
+  "videoDescription": "这部影视作品聚焦于展示工匠们在特定领域中的卓越技艺和精湛工艺，为大国制造业的发展和创新做出了重要贡献。通过深入剖析他们的工艺与成就，观众将领略到工匠们对传统工艺、现代科技产业以及其他领域的积极影响，感受到他们的精神与奉献。",
+  "videoReleaseDate": "2024-06-01",
+  "videoDuration": "120 minutes"
+}
+
+]

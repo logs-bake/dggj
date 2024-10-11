@@ -1,0 +1,101 @@
+[
+
+{
+    "battleId": "b00200001",
+    "battleName": "钢城保卫战",
+    "battlePublisher": "五条超人出版社",
+    "battleType": "sl",
+    "battleDate": "2017-04-01",
+    "battleSite": "济南钢城区",
+    "battleCoordinate": "5°5932～36°1716,117°4056~ 117°5807",
+    "battleResult": "防治大气污染 打好蓝天保卫战",
+    "battlePic": "images/battle/battle_gcbyz.jpg",
+    "battleDetail": "bat_gangchengbaoweizhan.json",
+    "battleDescription": "近年来，钢城区牢固树立“绿水青山就是金山银山”的理念，以改善环境质量为核心，始终把大气污染防治工作放在全区发展大局中去谋划。"
+},
+
+{
+    "battleId": "b00200002",
+    "battleName": "航天科技园区保卫战",
+    "battlePublisher": "五条超人出版社",
+    "battleType": "sl",
+    "battleDate": "2020-09-15",
+    "battleSite": "中国北京市海淀区",
+    "battleCoordinate": "116.294214,40.052646",
+    "battlePart": "航天科技集团 vs 恐怖分子",
+    "battleCommander": "安保部门领导 vs 恐怖组织头目",
+    "battleNums": "150 vs 30",
+    "battleResult": "航天科技园区成功避免恐袭",
+    "battlePic": "images/battle/battle_htkjqbwz.jpg",
+    "battleDetail": "bat_hangtiankejibaoweizhan.json",
+    "battleDescription": "航天科技园区安保部门与恐怖分子展开激烈交火，最终成功挫败了恐袭计划，保障了园区的安全稳定。"
+},
+
+{
+    "battleId": "b00200003",
+    "battleName": "机械制造厂火灾救援",
+    "battlePublisher": "五条超人出版社",
+    "battleType": "sl",
+    "battleDate": "2019-06-30",
+    "battleSite": "中国江苏省南京市",
+    "battleCoordinate": "118.778074,32.057236",
+    "battlePart": "消防部队 vs 火灾",
+    "battleCommander": "消防大队长 vs 火势",
+    "battleNums": "80 vs 火灾",
+    "battleResult": "成功扑灭火灾，无人员伤亡",
+    "battlePic": "images/battle/battle_jxzchzjy.jpg",
+    "battleDetail": "bat_jixiezhizaochanghuozaijiuyuan.json",
+    "battleDescription": "机械制造厂发生大火，消防部队迅速赶到，经过艰苦努力，成功扑灭了火灾，保护了厂区内的职工和财产安全。"
+},
+
+{
+    "battleId": "b00200004",
+    "battleName": "工程机械抢险救灾",
+    "battlePublisher": "五条超人出版社",
+    "battleType": "sl",
+    "battleDate": "2022-08-10",
+    "battleSite": "中国四川省绵阳市",
+    "battleCoordinate": "104.679114,31.467450",
+    "battlePart": "工程机械队 vs 自然灾害",
+    "battleCommander": "抢险救灾指挥官 vs 洪水泥石流",
+    "battleNums": "120 vs 洪灾",
+    "battleResult": "成功疏导洪水，减轻灾害损失",
+    "battlePic": "images/battle/battle_gcjqqrjz.jpg",
+    "battleDetail": "bat_gongchengjixieqiangxianjiuzai.json",
+    "battleDescription": "工程机械队紧急出动，投入抢险救灾工作，通过疏导洪水和泥石流，成功减轻了自然灾害造成的损失。"
+},
+
+{
+    "battleId": "b00200005",
+    "battleName": "智能制造车间安全事故处置",
+    "battlePublisher": "五条超人出版社",
+    "battleType": "sl",
+    "battleDate": "2023-12-20",
+    "battleSite": "中国广东省深圳市",
+    "battleCoordinate": "114.054534,22.543380",
+    "battlePart": "智能制造企业安全部 vs 安全事故",
+    "battleCommander": "安全主管 vs 事故现场",
+    "battleNums": "50 vs 1",
+    "battleResult": "成功化解安全事故风险",
+    "battlePic": "images/battle/battle_znzzcjaq.jpg",
+    "battleDetail": "bat_zhinengzhizaichejiananquanshiguchuzhi.json",
+    "battleDescription": "智能制造企业发生安全事故，安全部门迅速处置，成功化解了事故风险，保障了生产车间的安全稳定。"
+},
+
+{
+    "battleId": "b00200006",
+    "battleName": "航空发动机试飞安全事故应急处置",
+    "battlePublisher": "五条超人出版社",
+    "battleType": "sl",
+    "battleDate": "2024-03-05",
+    "battleSite": "中国陕西省西安市",
+    "battleCoordinate": "108.946558,34.347269",
+    "battlePart": "航空发动机研发部 vs 试飞安全事故",
+    "battleCommander": "飞行测试主管 vs 事故紧急处理组",
+    "battleNums": "80 vs 1",
+    "battleResult": "成功避免试飞事故",
+    "battlePic": "images/battle/battle_hkfdjyjycz.jpg",
+    "battleDetail": "bat_hangkongfadongjishifeianquanshiguyingjichuzhi.json",
+    "battleDescription": "在航空发动机试飞过程中发生安全事故，研发部门紧急处置，成功避免了试飞事故的发生，确保了飞行测试的顺利进行。"
+}
+]

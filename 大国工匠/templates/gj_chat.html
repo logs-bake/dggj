@@ -1,0 +1,34 @@
+{% extends "gj_base.html" %}
+{% block title %} 客服在线 {% endblock %}
+{% block main %}
+<!-- 客服在线·聊天室 -->
+<section class="mt-1">
+    <div class="container py-4">
+        <div class="block-title-w"><h2 class="block-title">客服在线 · 聊天室</h2></div>
+        <div class="row border border-outline rounded">
+            <div class="row pe-0" id="chat-messages"></div>
+            <h4 class="text-center my-5 p-5" id="info">暂无聊天信息...</h4>
+        </div>
+    </div>
+</section>
+<section class="mt-1">
+    <div class="container">
+        <div class="row pe-0">
+            <div class="col-10 ps-0">
+                <input class="form-control rounded-2 py-3" id="message" placeholder="请输入要发送的消息">
+            </div>
+            <div class="col-2 pe-0">
+                <input class="form-control rounded-2 py-2 bg-success fs-3 text-light"
+                        id="send" type="button" value="发送">
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+{% block jsinclude %}
+<script src="{{ url_for('static', filename='js/socket.io.min.js') }}"></script>
+<script>
+    const user = {{ user | tojson }}
+</script>
+<script src="{{ url_for('static', filename='js/cz_chart.js') }}"></script>
+{% endblock %}

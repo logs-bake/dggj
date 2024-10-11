@@ -1,0 +1,55 @@
+{
+    "memorialId": "m00100001",
+    "memorialName": "合肥劳模工匠馆",
+    "memorialType": "jlg",
+    "memorialSite": "安徽省",
+    "memorialCoordinate": "118.558，31.284",
+    "memorialPic": "images/memorial/mem_hfjng.jpg",
+    "memorialDescription": "合肥劳模工匠馆是安徽省首座永久性劳模工匠主题展馆，作为合肥市职工爱国主义教育基地和新时代职工文明实践中心，总面积达1000余平方米。",
+    "memorialIntroduction": [
+        "总面积达1000余平方米。",
+        "展馆以“劳动创造幸福”为核心主题，由劳模事迹、工匠风采、发展成果展、工运史展四部分组成，展馆以图文为基础，综合运用声光电、场景复原、精品模型、沉浸互动等方式，展陈不同时期劳模工匠实物资料8000余件，全方位、多角度、多层次展示了不同历史时期全市各级各类劳动模范、能工巧匠的先进事迹、匠心工艺、创新成果，生动回顾了合肥工运事业发展的历史变迁和光辉历程，为学习劳模精神、劳动精神、工匠精神，了解合肥工运史提供了重要平台。",
+        "合肥劳模工匠馆，坐落于合肥市包河区水阳江路392号，总建筑面积达1000余平方米，由劳模事迹、工匠风采、发展成果、工运史展四部分组成，是安徽省首座永久性劳模工匠主题展馆，全省首个全国职工爱国主义教育基地，也是合肥市职工爱国主义教育基地和新时代职工文明实践中心。展馆内共征集合肥市工会成立以来各时期的劳模奖章、荣誉证书以及体现各时期劳动人民艰苦奋斗的劳动工具、劳动成果等实物展品9000余件。",
+        "局机关第四党支部党员集中观看了全市不同历史时期各级各行业劳动模范、能工巧匠的先进事迹、匠心工艺和创新成果等，集体回顾了合肥工运事业发展的历史变迁和光辉历程，通过声光电、场景复原、精品模型、沉浸互动等方式，全方位、多角度、多层次学习了解了合肥工运史。参观学习结束后，大家纷纷表示，要向劳模工匠们学习，在以后的工作中不断加强自身的责任感和使命感，把爱岗敬业、勇于创新的精神传承下去，充分发挥党员的先锋模范作用，共同打造司法行政“铁军”，争做“法治合肥”建设进程中的劳模工匠。"
+    ],
+    "memorialAlbum": [
+        "images/memorial/hfjng/mem_hfjng_1.jpg",
+        "images/memorial/hfjng/mem_hfjng_2.jpg",
+        "images/memorial/hfjng/mem_hfjng_3.jpg",
+        "images/memorial/hfjng/mem_hfjng_4.jpg",
+        "images/memorial/hfjng/mem_hfjng_5.jpg",
+        "images/memorial/hfjng/mem_hfjng_6.jpg",
+        "images/memorial/hfjng/mem_hfjng_7.jpg",
+        "images/memorial/hfjng/mem_hfjng_8.jpg"
+    ],
+    "memorialRelics": [{
+            "image": ["images/memorial/hfjng/mem_hfjng_reliec_1.png"],
+            "description": "讲好先锋故事，这个展陈列了18位不同时代劳模工匠的座右铭"
+        },
+        {
+            "image": ["images/memorial/hfjng/mem_hfjng_reliec_2.png"],
+            "description": "让劳模精神、劳动精神、工匠精神在新时代熠熠生辉 | 全国首个工匠精神展示厅建成开放 "
+        },
+        {
+            "image": ["images/memorial/hfjng/mem_hfjng_reliec_3.png"],
+            "description": "传承工匠精神 在平凡中坚持 ——合肥亳州路小学五（2）中队“星梦”小队参观合肥劳模工匠馆 "
+        },
+        {
+            "image": ["images/memorial/hfjng/mem_hfjng_reliec_4.png"],
+            "description": "在劳模工匠展示馆、工运馆感受“榜样力量” "
+        },
+        {
+            "image": ["images/memorial/hfjng/mem_hfjng_reliec_5.png"],
+            "description": "匠心铸梦·智向未来 中联重科亮相首届湖湘劳模工匠创新成果展 "
+        },
+        {
+            "image": ["images/memorial/hfjng/mem_hfjng_reliec_6.png"],
+            "description": "合肥劳模工匠馆入选第二批全国职工爱国主义教育基地 "
+        }
+    ],
+    "memorialReferences": [
+        "https://baike.baidu.com/item/%E5%90%88%E8%82%A5%E5%8A%B3%E6%A8%A1%E5%B7%A5%E5%8C%A0%E9%A6%86/61717882?fr=ge_ala",
+        "https://image.baidu.com/search/index?tn=baiduimage&ps=1&ct=201326592&lm=-1&cl=2&nc=1&ie=utf-8&dyTabStr=MCwzLDEsMiw0LDYsNSw3LDgsOQ%3D%3D&word=%E5%90%88%E8%82%A5%E5%8A%B3%E6%A8%A1%E5%B7%A5%E5%8C%A0%E9%A6%86",
+        "https://sfj.hefei.gov.cn/ztzl/jgdj/jgdj/15034771.html"
+    ]
+}

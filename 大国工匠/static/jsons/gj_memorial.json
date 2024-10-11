@@ -1,0 +1,68 @@
+[{
+    "memorialId": "m00100001",
+    "memorialName": "合肥劳模工匠馆",
+    "memorialType": "jng",
+    "memorialSite": "安徽省",
+    "memoriaPublisher": " 五条超人出版社",
+    "memorialCoordinate": "118.558，31.284",
+    "memorialPic": "images/memorial/gj_dggjjng.jpg",
+    "memorialDetail": "mem_dggjjng_bj.json",
+    "memorialDescription": "合肥劳模工匠馆是安徽省首座永久性劳模工匠主题展馆，作为合肥市职工爱国主义教育基地和新时代职工文明实践中心，总面积达1000余平方米。"
+},
+{
+    "memorialId": "m00100002",
+    "memorialName": "工匠之光纪念园",
+    "memoriaPublisher": " 五条超人出版社",
+    "memorialType": "jng",
+    "memorialSite": "江苏南京市",
+    "memorialCoordinate": "118.793224,32.069996",
+    "memorialPic": "images/memorial/gj_gjzgjny.jpg",
+    "memorialDetail": "mem_gjzgjny_js.json",
+    "memorialDescription": "工匠之光纪念园位于江苏南京市，是为了表彰和纪念那些为国家工业发展和民族经济进步做出突出贡献的优秀工匠们而建立的。园区内展示了一系列工匠事迹和工艺精品，彰显了工匠精神的伟大力量。"
+},
+{
+    "memorialId": "m00100003",
+    "memorialName": "工匠精神纪念园",
+    "memoriaPublisher": " 五条超人出版社",
+    "memorialType": "jng",
+    "memorialSite": "广东广州市",
+    "memorialCoordinate": "113.264434,23.129162",
+    "memorialPic": "images/memorial/gj_gjjzjny.jpg",
+    "memorialDetail": "mem_gjjzjny_gd.json",
+    "memorialDescription": "工匠精神纪念园位于广东广州市，是为了弘扬工匠精神、传承工匠文化而建立的。园区内陈列了一批优秀工匠的事迹和成就，讴歌了工匠们在国家发展中的不懈努力和无私奉献。"
+},
+{
+    "memorialId": "m00100004",
+    "memorialName": "大国工匠英名纪念馆",
+    "memoriaPublisher": " 五条超人出版社",
+    "memorialType": "jng",
+    "memorialSite": "上海市徐汇区",
+    "memorialCoordinate": "121.42979,31.179679",
+    "memorialPic": "images/memorial/gj_dggjymjng.jpg",
+    "memorialDetail": "mem_dggjymjng_sh.json",
+    "memorialDescription": "大国工匠英名纪念馆位于上海市徐汇区，是为了纪念那些在各个行业中为国家制造业发展做出杰出贡献的工匠们而建立的。馆内展示了一批工匠的事迹和成就，让人们铭记工匠精神的伟大价值。"
+},
+{
+    "memorialId": "m00100005",
+    "memorialName": "工匠荣耀园",
+    "memoriaPublisher": " 五条超人出版社",
+    "memorialType": "jng",
+    "memorialSite": "天津市河东区",
+    "memorialCoordinate": "117.248857,39.125596",
+    "memorialPic": "images/memorial/gj_gjryy.jpg",
+    "memorialDetail": "mem_gjryy_tj.json",
+    "memorialDescription": "工匠荣耀园位于天津市河东区，是为了弘扬工匠精神、传承工匠文化而建立的纪念场所。园区内展示了一批优秀工匠的事迹和成就，激励着更多的人们秉承工匠精神，为国家的制造业发展贡献力量。"
+},
+
+{
+    "memorialId": "m00100006",
+    "memorialName": "伟大工匠纪念园",
+    "memoriaPublisher": " 五条超人出版社",
+    "memorialType": "jng",
+    "memorialSite": "山东青岛市",
+    "memorialCoordinate": "120.364611,36.075804",
+    "memorialPic": "images/memorial/gj_wdgjjny.jpg",
+    "memorialDetail": "mem_wdgjjny_sd.json",
+    "memorialDescription": "伟大工匠纪念园位于山东青岛市，是为了纪念和表彰那些在国家制造业发展中作出杰出贡献的工匠们而建立的。园区内设有工匠事迹展示区和工艺品展示区，彰显了工匠精神的伟大力量。"
+}
+]

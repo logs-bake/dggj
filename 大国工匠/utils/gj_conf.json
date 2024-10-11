@@ -1,0 +1,15 @@
+{
+  "server_url": "127.0.0.1",
+  "server_port": 27017,
+  "db_user": null,
+  "db_password": null,
+  "db_name": "db_gj",
+  "db_colls": [
+    "gj_battle",
+    "gj_hero",
+    "gj_history",
+    "gj_literature",
+    "gj_memorial",
+    "gj_video"
+  ]
+}

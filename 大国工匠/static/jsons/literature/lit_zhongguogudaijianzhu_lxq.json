@@ -1,0 +1,120 @@
+﻿{
+    "literatureId": "L00100001",
+    "literatureName": "《大国工匠》",
+    "literatureType": "jswx",
+    "literatureAuthor": "王曙群",
+    "literatureAuthorBrief": "王树增，1952年生于北京，中国战争题材作家。著有长篇纪实文学《长征》《朝鲜战争》《解放战争》，非虚构中国近代史系列《1901》、《1911》等。作品曾获中国人民解放军文艺大奖、中国图书政府奖、全国五个一工程奖、鲁迅文学奖、中国人民解放军文艺奖、曹禺戏剧文学奖。",
+    "literaturePublisher": "五条超人",
+    "literatureOrigin": "中国大陆",
+    "literaLanguage": "普通话",
+    "literatureISBN": "9787020116379",
+    "literatureDate": "2022-09-01",
+    "literaturePic": "images/literature/lit_gj1.jpg",
+    "literatureDetail": "lit_lliupanshan_mzd.json",
+    "literatureDescription": "王曙群结合古人的经验，根据前人的工匠精神和技艺在这本书中总结了大国工匠”是指有5年以上一线生产现场工作经历，长期践行执着专注、精益求精、一丝不苟、追求卓越的工匠精神，具有突出技术技能素质等基本条件。在引领力、实践力、创新力、攻关力、传承力方面显现明显发展潜力的工匠，启示后人学习大国工匠精神，追求卓越、精益求精、永不妥协的工匠精神，它强调技艺、品质、创新和责任。学习大国工匠精神，首先要注重细节、精益求精，不断提高自己的专业能力和技术水平；其次，要对自己的工作质量负责，追求卓越的品质水准；同时，还要勇于创新，敢于尝试新方法，不断探索和突破；最后，要肩负起社会责任，为人民群众创造更多的价值。只有秉持古人的工匠精神，更好的传承和发展，才能成为一名真正的大国工匠，为建设美好的中国添砖加瓦。",
+    "literatureCatalog": [
+        "images/literature/changzheng_wsz/lit_01.jpg",
+        "images/literature/changzheng_wsz/lit_02.jpg",
+        "images/literature/changzheng_wsz/lit_03.jpg",
+        "images/literature/changzheng_wsz/lit_04.jpg",
+        "images/literature/changzheng_wsz/lit_05.jpg",
+        "images/literature/changzheng_wsz/lit_005.jpg",
+        "images/literature/changzheng_wsz/lit_0005.jpg"
+    ],
+    "literatureSetsStory": [
+        {
+            "title": "大国工匠·瑰宝 1",
+            "image": ["images/literature/changzheng_wsz/lit_06.jpg"],
+            "description": "这是李白曾经游历四方时曾到过今天的甘肃省敦煌市，并在那里写下了《雪峰寺石壁》一诗，其中描述了雪山之巅建有一座高塔，被称为雪峰塔。雪峰塔始建于863年，是当时南诏国为纪念僧人普光开化西南地区而修建的，凝聚了古代人民的劳动结晶还有智慧。",
+            "resourceUrl": "https://www.163.com/v/video/VWDA9GFLK.html"
+        },
+        {
+            "title": "大国工匠·瑰宝 2",
+            "image": ["images/literature/changzheng_wsz/lit_07.jpg"],
+            "description": "北京万佛堂花塔系密檐塔，塔体倾斜有“北京斜塔”之称，位于北京市房山区万佛堂村，万佛塔入选第五批全国重点文物保护单位万佛堂、孔水洞附近的山峰上，系北京重点文物抢救项目。自1995年春动工修复，于1996年完工。",
+            "resourceUrl": "https://m.163.com/v/video/VGP2RU408.html"
+        },
+        {
+            "title": "大国工匠·瑰宝 3",
+            "image": ["images/literature/changzheng_wsz/lit_08.jpg"],
+            "description": "古代斜体房屋是一种独特的建筑风格，具有倾斜的结构和斜面屋顶。由于其独特的设计，它能够有效地抵御雨水和风力的侵袭。斜体房屋通常由石块、木材和泥土构建而成，给人一种坚固耐用的感觉。这种房屋不仅具有实用性，还展现了古代建筑师的智慧和工艺技巧。",
+            "resourceUrl": "https://www.bilibili.com/video/BV1gy421q7fH/"
+        },
+        {
+            "title": "大国工匠·瑰宝 4",
+            "image": ["images/literature/changzheng_wsz/lit_09.jpg"],
+            "description": "培福村大门由古代工匠巧夺天工地雕刻而成，精美的石雕刻上了华丽的图案，栩栩如生。巨大的木门则以古老的工艺打造，结实耐用。大门两侧的石柱高耸入云，雕刻着神秘的符号。这座大门不仅是培福村的象征，更是古代工匠智慧与艺术的结晶。",
+            "resourceUrl": "https://www.baidu.com/sf/vsearch?pd=video&tn=vsearch&lid=ce153e690042fc34&ie=utf-8&wd=%E5%9F%B9%E7%A6%8F%E6%9D%91%E5%A4%A7%E9%97%A8%E8%A7%86%E9%A2%91&rsv_spt=7&rsv_bp=1&f=8&oq=%E5%9F%B9%E7%A6%8F%E6%9D%91%E5%A4%A7%E9%97%A8%E8%A7%86%E9%A2%91&rsv_pq=ce153e690042fc34&rsv_t=4c3fpowcJtMLKcw7pwzxZwy9uTbroJzLlbVdi7eXrMhFGYCEOdBdiJPou34"
+        },
+        {
+            "title": "大国工匠·瑰宝 5",
+            "image": ["images/literature/changzheng_wsz/lit_010.jpg"],
+            "description": "古代工匠们用智慧和技艺建造了壮丽的高楼房。巨大的石块和木材被精准地堆砌和连接，形成了宏伟的建筑结构。细致的雕刻和彩绘装饰着墙壁和柱子，展现出工匠的艺术才华。高楼房内设有宽敞的厅堂和奢华的房间，为人们提供舒适的生活空间。这些古代高楼房体现了工匠们的智慧和对美的追求。",
+            "resourceUrl": "https://weibo.com/tv/show/1034:4876577801175080"
+        },
+        {
+            "title": "大国工匠·瑰宝 6",
+            "image": ["images/literature/changzheng_wsz/lit_011.jpg"],
+            "description": "兵马俑，即秦始皇陵兵马俑，是第一批全国重点文物保护单位、第一批中国世界遗产，兵马俑不仅是一座不朽的古代艺术宝库，同时也是一座巨大的秦代武器库。虽然秦俑坑目前只发掘清理了很小一部分，但已出土了秦代兵器数十多种，达数万件，彰显了古代前任的智慧。",
+            "resourceUrl": "https://weibo.com/tv/show/1034:4863380260061240"
+        },
+        {
+            "title": "大国工匠·瑰宝 7",
+            "image": ["images/literature/changzheng_wsz/lit_012.jpg"],
+            "description": "塔尔寺位于西藏自治区日喀则市昂仁县，是藏传佛教格鲁派的重要寺庙之一，也是西藏最大的藏传佛教学院。大国工匠是指塔尔寺的建筑师和工匠们，他们精湛的技艺和不懈的努力，为塔尔寺的建造和保护做出了巨大贡献。\n\n\n\n\n\n",
+            "resourceUrl": "https://m.163.com/v/video/VMVCT84KO.html"
+        },
+        {
+            "title": "大国工匠·瑰宝 8",
+            "image": ["images/literature/changzheng_wsz/lit_013.jpg"],
+            "description": "明朝工匠以其精湛的技艺和卓越的创新精神，在中国历史上留下了浓墨重彩的一笔。他们不仅在传统工艺上有所突破，更在建筑设计、木雕、瓷器等领域展现出非凡的才华。",
+            "resourceUrl": "https://www.bilibili.com/video/av288985757/"
+        },
+        {
+            "title": "大国工匠·瑰宝 9",
+            "image": ["images/literature/changzheng_wsz/lit_014.jpg"],
+            "description": "古皇陵的建造离不开技艺精湛的工匠们。他们负责设计、施工和装饰等各个环节，确保皇陵的宏伟与安全性。例如，明朝的蒯祥以其高超的木工技艺，参与了多座皇陵的建造，被誉为“蒯鲁班”。工匠们不仅运用传统工艺，还发明了如“自来石”等独特机关，以确保皇陵的安全。他们的辛勤付出和卓越才华，为后世留下了宝贵的文化遗产。\n\n。",
+            "resourceUrl": "https://haokan.baidu.com/v?pd=wisenatural&vid=12303176967595132946"
+        },
+        {
+            "title": "大国工匠·瑰宝 10",
+            "image": ["images/literature/changzheng_wsz/lit_015.jpg"],
+            "description": "古长城，作为中国古代的军事防御工程，其建造离不开技艺精湛的工匠们。他们采用石头、土、木材等材料，结合天文科学进行精准测量，利用自然地理条件增强防御性能。工匠们不仅发明了糯米石灰浆粘合石头等技术，还采用空心砖减轻墙体重量，提高了长城的稳定性和耐用性。经过历朝历代的维护和修复，这些工匠的卓越技艺和辛勤付出，使长城屹立不倒，成为世界文化遗产。",
+            "resourceUrl": "https://www.bilibili.com/video/BV1c8411S7v3/"
+        },
+        {
+            "title": "大国工匠·瑰宝 11",
+            "image": ["images/literature/changzheng_wsz/lit_016.jpg"],
+            "description": "颐和园，作为清朝皇家园林的典范，其建筑和修复背后离不开技艺精湛的工匠们。他们不仅参与了颐和园最初的建造，还在后续的修复和维护中发挥了重要作用,展现了工匠们的精湛技艺和敬业精神。此外，颐和园内的园林布局、建筑细节等也体现了工匠们的智慧和匠心。这些工匠们的辛勤付出，成为中华文化的瑰宝。",
+            "resourceUrl": "https://haokan.baidu.com/v?pd=wisenatural&vid=50477148241094936"
+        },
+        {
+            "title": "大国工匠·瑰宝 12",
+            "image": ["images/literature/changzheng_wsz/lit_017.jpg"],
+            "description": "紫荆城（应为紫禁城）角楼的建造和修缮体现了古代工匠的卓越技艺和辛勤付出。他们采用“九梁十八柱七十二条脊”的复杂结构，创造了集精巧建筑结构和精湛艺术于一身的角楼。修缮过程中，老匠人如单士元、于卓云等发挥了重要作用，而新一代工匠如夏荣祥、李永革等则继承了传统技艺，确保了角楼的修复质量。这些工匠们是紫禁城角楼得以保存至今的功臣",
+            "resourceUrl": "https://www.bilibili.com/video/BV16q4y1x719/"
+        },
+        {
+            "title": "大国工匠·瑰宝 13",
+            "image": ["images/literature/changzheng_wsz/lit_018.jpg"],
+            "description": "华林寺大殿，其建筑工艺凝聚了古代工匠的精湛技艺。始建于北宋乾德二年（964年），整个结构榫卯相和，未用一根铁钉，展现了工匠们的巧夺天工。其古朴雄浑的样貌，及精细的工艺构件，均为工匠们智慧与汗水的结晶。大殿被列为全国重点文物保护单位，见证了古代工匠的不朽成就。",
+            "resourceUrl": "https://www.bilibili.com/video/BV1Ki421D7yM/"
+        },
+        {
+            "title": "大国工匠·瑰宝 14",
+            "image": ["images/literature/changzheng_wsz/lit_019.jpg"],
+            "description": "显通寺无梁殿是中国及白马寺之后第二座寺庙,寺庙中轴线上有七重大殿,凝聚了前人智慧的汗水的结晶，向后人展示了前人无比宏伟的精神与智慧,是文化传承和工匠精神的不朽的艺术品",
+            "resourceUrl": "https://www.bilibili.com/video/BV1ew411k7uE/"
+        }
+
+    ],
+    "literatureReferences": [
+         "https://www.bilibili.com/video/BV17D4y1q7b1/?from_spmid=666.9.0.0",
+         "https://www.bilibili.com/video/BV1xT411H7EA/?p=8",
+         "https://www.bilibili.com/video/BV1e3411z7ge/?p=9",
+         "https://haokan.baidu.com/v?pd=wisenatural&vid=8581663250630604521",
+         "https://www.bilibili.com/video/av756647795/",
+         "http://tv.cctv.com/2016/10/05/VIDEVevZfwfNuoHzYP3YoBpx161005.shtml"
+
+    ]
+}
